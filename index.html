@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dannel Jimenez — Senior Software Developer, Full-Stack & Scrum Master. Madrid." />
+  <title>Dannel Jimenez — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand-mark" href="#top" data-i18n="brand">Dannel Jimenez</a>
+    <div class="topbar-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn-ghost" href="https://www.linkedin.com/in/dannel-jimenez-torres" target="_blank" rel="noopener noreferrer" data-i18n="linkedin">LinkedIn</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">Madrid · España</p>
+        <h1 data-i18n="name">Dannel Jimenez</h1>
+        <p class="hero-role" data-i18n="role">Senior Software Developer · Full-Stack · Scrum Master</p>
+        <p class="hero-lead" data-i18n="lead">
+          Lidero el desarrollo backend y la entrega ágil de productos digitales.
+          Especializado en PHP/Symfony, Python y APIs en la nube, con foco en equipos
+          multidisciplinares y resultados medibles.
+        </p>
+        <div class="hero-cta">
+          <a class="btn-primary" href="#experience" data-i18n="ctaExperience">Ver experiencia</a>
+          <a class="btn-secondary" href="#skills" data-i18n="ctaSkills">Stack técnico</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <!-- Reemplaza assets/photo.jpg por tu foto -->
+          <img
+            class="photo"
+            src="assets/photo.jpg"
+            alt="Dannel Jimenez"
+            width="420"
+            height="520"
+            onerror="this.classList.add('is-hidden'); this.nextElementSibling.classList.add('is-visible');"
+          />
+          <div class="photo-fallback" aria-hidden="true">
+            <span>DJ</span>
+            <small data-i18n="photoHint">Añade tu foto en assets/photo.jpg</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-head">
+        <h2 data-i18n="aboutTitle">Perfil</h2>
+        <p data-i18n="aboutText">
+          Ingeniero Informático con más de 10 años construyendo y escalando sistemas web.
+          Combino rol técnico profundo (arquitectura, APIs, calidad) con liderazgo Scrum:
+          facilitación, priorización y acompañamiento de equipos. Actualmente dirijo el
+          backend y la entrega ágil de las aplicaciones móviles de ALSA dentro de O2O.
+        </p>
+      </div>
+      <div class="stat-row">
+        <div class="stat">
+          <strong>10+</strong>
+          <span data-i18n="statYears">años de experiencia</span>
+        </div>
+        <div class="stat">
+          <strong>Full-Stack</strong>
+          <span data-i18n="statStack">PHP · Python · JS · Cloud</span>
+        </div>
+        <div class="stat">
+          <strong>Scrum</strong>
+          <span data-i18n="statAgile">liderazgo técnico ágil</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head">
+        <h2 data-i18n="expTitle">Experiencia</h2>
+        <p data-i18n="expIntro">Trayectoria reciente en consultoría digital, backend y liderazgo de producto.</p>
+      </div>
+
+      <article class="job">
+        <div class="job-meta">
+          <h3 data-i18n="job1Title">Scrum Master & Backend Developer</h3>
+          <p class="org">O2O-MO2O / Digital Business & Transformation</p>
+          <p class="dates" data-i18n="job1Dates">Mar 2022 — Presente · Madrid</p>
+        </div>
+        <div class="job-body">
+          <p data-i18n="job1Summary">
+            Liderazgo técnico y de equipo en proyectos de transformación digital para
+            grandes cuentas. Desarrollo y mantenimiento de APIs REST en PHP y Python
+            (Symfony 6.4, Laravel 12.x), con despliegues e integraciones en AWS (RDS, Lambda).
+          </p>
+          <ul>
+            <li data-i18n="job1b1"><strong>ALSA (Abr 2023 — Presente):</strong> Scrum Master y responsable del backend Symfony/PHP de las aplicaciones móviles. Facilito prácticas ágiles, alineo negocio y desarrollo, y conduzco la entrega continua del producto.</li>
+            <li data-i18n="job1b2"><strong>Sodexo (Sep 2022 — Mar 2023):</strong> Backend Developer en PHP. Diseño e implementación de servicios, integraciones y mantenimiento evolutivo de plataformas corporativas.</li>
+            <li data-i18n="job1b3"><strong>McDonald’s (Mar 2022 — Sep 2022):</strong> Desarrollo de campañas loyalty con Python en AWS. Pipelines, servicios cloud y soporte a iniciativas de marketing y retención.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-meta">
+          <h3 data-i18n="job2Title">Database Team Leader</h3>
+          <p class="org">HelloMrLead — Growth Hacking</p>
+          <p class="dates" data-i18n="job2Dates">Oct 2021 — Mar 2022 · Barcelona</p>
+        </div>
+        <div class="job-body">
+          <p data-i18n="job2Summary">
+            Responsable del desarrollo, evaluación y optimización de campañas de marketing
+            directo: gestión de herramientas de bases de datos, reporting y mejora continua
+            de la calidad del dato.
+          </p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-meta">
+          <h3 data-i18n="job3Title">Specialist A — Developer & Architect</h3>
+          <p class="org">CEIGE / UCI — Universidad de Ciencias Informáticas</p>
+          <p class="dates" data-i18n="job3Dates">Abr 2016 — Jul 2021 · La Habana</p>
+        </div>
+        <div class="job-body">
+          <p data-i18n="job3Summary">
+            Arquitecto y desarrollador del sistema de planificación de actividades SIPAC 3.0
+            para entidades nacionales. Stack: Django REST Framework, Python, ExtJS,
+            JavaScript y SQL, con Docker para automatizar despliegues.
+          </p>
+          <ul>
+            <li data-i18n="job3b1">Diseño de API REST y arquitectura de módulos de planificación.</li>
+            <li data-i18n="job3b2">Supervisión del proceso de desarrollo y calidad del software.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-meta">
+          <h3 data-i18n="job4Title">Specialist B — Developer</h3>
+          <p class="org">Centro de Informatización de Entidades — UCI</p>
+          <p class="dates" data-i18n="job4Dates">Ago 2015 — Abr 2016 · La Habana</p>
+        </div>
+        <div class="job-body">
+          <p data-i18n="job4Summary">
+            Desarrollo de componentes base del framework institucional (EyCBundle y
+            TrazasBundle) y tecnologías PHP reutilizables para proyectos de la universidad.
+          </p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job-meta">
+          <h3 data-i18n="job5Title">Freelance Full-Stack Developer</h3>
+          <p class="org" data-i18n="job5Org">Proyectos individuales y en equipo</p>
+          <p class="dates" data-i18n="job5Dates">Sep 2014 — Feb 2026</p>
+        </div>
+        <div class="job-body">
+          <p data-i18n="job5Summary">
+            Productos web y ERP/CRM con PHP, Python, JavaScript, MySQL y APIs REST,
+            usando Symfony, Laravel, Django y Flask. Integraciones eCommerce y soluciones
+            a medida para clientes internacionales.
+          </p>
+          <div class="project-links">
+            <a href="https://beoneboss.com" target="_blank" rel="noopener noreferrer">beoneboss.com</a>
+            <a href="https://ponmesaldo.com" target="_blank" rel="noopener noreferrer">ponmesaldo.com</a>
+            <a href="https://erp.brperformance.es/" target="_blank" rel="noopener noreferrer">erp.brperformance.es</a>
+            <a href="https://www.berodperformance.es/" target="_blank" rel="noopener noreferrer">berodperformance.es</a>
+            <a href="https://www.directoriocubano.info/" target="_blank" rel="noopener noreferrer">directoriocubano.info</a>
+            <a href="https://www.itslombardiameccatronica.it/" target="_blank" rel="noopener noreferrer">itslombardiameccatronica.it</a>
+            <a href="https://abcproduction.com/" target="_blank" rel="noopener noreferrer">abcproduction.com</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head">
+        <h2 data-i18n="skillsTitle">Habilidades</h2>
+        <p data-i18n="skillsIntro">Stack y capacidades que uso día a día en producto y equipos.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3 data-i18n="skillsBackend">Backend</h3>
+          <ul>
+            <li>PHP · Symfony · Laravel</li>
+            <li>Python · Django · Flask · DRF</li>
+            <li>REST APIs · MySQL / SQL</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 data-i18n="skillsCloud">Cloud & DevOps</h3>
+          <ul>
+            <li>AWS (RDS, Lambda)</li>
+            <li>Docker</li>
+            <li data-i18n="skillsCloud3">CI/CD y despliegues containerizados</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 data-i18n="skillsFrontend">Frontend</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>ExtJS</li>
+            <li data-i18n="skillsFront3">Integración con APIs y paneles admin</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 data-i18n="skillsLead">Liderazgo & Agile</h3>
+          <ul>
+            <li>Scrum Master</li>
+            <li data-i18n="skillsLead2">Liderazgo técnico de equipos</li>
+            <li data-i18n="skillsLead3">Facilitación, planning y delivery</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 data-i18n="skillsDomain">Dominio</h3>
+          <ul>
+            <li>ERP / CRM</li>
+            <li>eCommerce & loyalty</li>
+            <li data-i18n="skillsDomain3">Apps móviles (backend / producto)</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 data-i18n="skillsSoft">Soft skills</h3>
+          <ul>
+            <li data-i18n="skillsSoft1">Resolución creativa de problemas</li>
+            <li data-i18n="skillsSoft2">Comunicación multidisciplinar</li>
+            <li data-i18n="skillsSoft3">Iniciativa y ownership de extremo a extremo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-head">
+        <h2 data-i18n="eduTitle">Formación</h2>
+      </div>
+      <div class="edu-list">
+        <article class="edu">
+          <h3 data-i18n="edu1Title">Máster en Programación Python (oficial Microsoft)</h3>
+          <p class="org">CICE — Madrid</p>
+          <p class="dates" data-i18n="edu1Dates">Oct 2021 — Abr 2022</p>
+          <p data-i18n="edu1Text">Python avanzado, Flask, Django y desarrollo de sistemas web y consola.</p>
+        </article>
+        <article class="edu">
+          <h3 data-i18n="edu2Title">Ingeniero en Ciencias Informáticas</h3>
+          <p class="org">Universidad de Ciencias Informáticas (UCI) — La Habana</p>
+          <p class="dates" data-i18n="edu2Dates">Sep 2009 — Jul 2015</p>
+          <p data-i18n="edu2Text">Ingeniería de software, programación, matemáticas, inteligencia computacional y sistemas digitales.</p>
+        </article>
+        <article class="edu">
+          <h3 data-i18n="edu3Title">Postgrados</h3>
+          <p class="org">UCI — La Habana</p>
+          <p class="dates" data-i18n="edu3Dates">2015 — 2017</p>
+          <p data-i18n="edu3Text">Symfony 2.x · Programación orientada a objetos · PHP / Laravel.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="languages">
+      <div class="section-head">
+        <h2 data-i18n="langTitle">Idiomas</h2>
+      </div>
+      <div class="lang-cards">
+        <div class="lang-card">
+          <strong data-i18n="langEs">Español</strong>
+          <span data-i18n="langEsLevel">Lengua materna</span>
+        </div>
+        <div class="lang-card">
+          <strong data-i18n="langEn">Inglés</strong>
+          <span data-i18n="langEnLevel">B2 lectura · B1–B2 oral/escrito</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      <span data-i18n="footerName">Dannel Jimenez</span>
+      · Madrid
+      · <a href="https://www.linkedin.com/in/dannel-jimenez-torres" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    <p class="footer-note" data-i18n="footerNote">CV online · GitHub Pages</p>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
