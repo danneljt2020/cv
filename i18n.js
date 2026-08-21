@@ -23,7 +23,7 @@ const translations = {
     job1Summary:
       "Liderazgo de producto/entrega y ownership técnico en transformación digital para grandes cuentas. Desarrollo y mantenimiento de APIs REST en PHP y Python (Symfony 6.4, Laravel 13.x), con despliegues e integraciones en AWS (RDS, Lambda).",
     job1b1:
-      "<strong>ALSA (Abr 2023 — Presente):</strong> Scrum Master y Backend Lead (Symfony/PHP) de las aplicaciones móviles. Gestiono backlog y roadmap con negocio, dependencias y stakeholders; facilito prácticas ágiles y conduzco el delivery continuo. Ownership del backend e iniciativas de <em>Agentic Commerce</em>, integración de IA vía API y capas de confianza/seguridad (Fingerprint, IPQualityScore), además de búsqueda con Meilisearch.",
+      "<strong>ALSA (Abr 2023 — Presente):</strong> Scrum Master y Backend Lead (Symfony/PHP) de las aplicaciones móviles. Gestiono backlog y roadmap con negocio, dependencias y stakeholders; facilito prácticas ágiles y conduzco el delivery continuo. Ownership del backend e iniciativas de <em>Agentic Commerce</em> e integración de IA vía API.",
     job1b2:
       "<strong>Sodexo (Sep 2022 — Mar 2023):</strong> Backend Developer en PHP. Diseño e implementación de servicios, integraciones y mantenimiento evolutivo de plataformas corporativas.",
     job1b3:
@@ -46,18 +46,20 @@ const translations = {
     job5Org: "Proyectos individuales y en equipo",
     job5Dates: "Sep 2014 — Presente",
     job5Summary:
-      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Soluciones a medida e integraciones para clientes internacionales.",
+      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Amplia experiencia integrando pasarelas de pago, caché con Redis y soluciones a medida para clientes internacionales.",
     job5Highlight:
+      "<strong>BeOneBoss:</strong> producto digital con búsqueda Meilisearch y capas de confianza/seguridad (Fingerprint, IPQualityScore).",
+    job5Highlight2:
       "<strong>Sanicompras:</strong> eCommerce de material sanitario en PrestaShop 8.2 (catálogo, checkout, Click & Collect).",
     skillsTitle: "Habilidades",
     skillsIntro: "Stack y capacidades que uso día a día en producto, ingeniería y equipos.",
     skillsBackend: "Backend",
-    skillsBackend3: "REST APIs · MySQL / SQL · Meilisearch",
+    skillsBackend3: "REST APIs · MySQL / SQL · Redis · Meilisearch",
     skillsCloud: "Cloud & DevOps",
     skillsCloud3: "CI/CD y despliegues containerizados",
     skillsCms: "CMS & eCommerce",
-    skillsCms1: "PrestaShop 8.x",
-    skillsCms2: "WordPress",
+    skillsCms1: "PrestaShop 8.x · WordPress",
+    skillsCms2: "Pasarelas de pago",
     skillsCms3: "Integraciones eCommerce / loyalty",
     skillsFrontend: "Frontend",
     skillsFront3: "Integración con APIs y paneles admin",
@@ -117,7 +119,7 @@ const translations = {
     job1Summary:
       "Product/delivery leadership and technical ownership on digital transformation projects for large accounts. REST API development and maintenance in PHP and Python (Symfony 6.4, Laravel 13.x), with AWS integrations (RDS, Lambda).",
     job1b1:
-      "<strong>ALSA (Apr 2023 — Present):</strong> Scrum Master and Backend Lead (Symfony/PHP) for the mobile apps. I own backlog and roadmap with business, manage dependencies and stakeholders, facilitate agile practices and drive continuous delivery. Backend ownership plus <em>Agentic Commerce</em> initiatives, AI via API integrations and trust/security layers (Fingerprint, IPQualityScore), as well as Meilisearch-powered search.",
+      "<strong>ALSA (Apr 2023 — Present):</strong> Scrum Master and Backend Lead (Symfony/PHP) for the mobile apps. I own backlog and roadmap with business, manage dependencies and stakeholders, facilitate agile practices and drive continuous delivery. Backend ownership plus <em>Agentic Commerce</em> initiatives and AI via API integrations.",
     job1b2:
       "<strong>Sodexo (Sep 2022 — Mar 2023):</strong> PHP Backend Developer. Designed and implemented services, integrations and evolutionary maintenance of corporate platforms.",
     job1b3:
@@ -140,18 +142,20 @@ const translations = {
     job5Org: "Individual and team projects",
     job5Dates: "Sep 2014 — Present",
     job5Summary:
-      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Tailored solutions and integrations for international clients.",
+      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Strong experience integrating payment gateways, Redis caching and tailored solutions for international clients.",
     job5Highlight:
+      "<strong>BeOneBoss:</strong> digital product with Meilisearch search and trust/security layers (Fingerprint, IPQualityScore).",
+    job5Highlight2:
       "<strong>Sanicompras:</strong> healthcare supplies eCommerce on PrestaShop 8.2 (catalog, checkout, Click & Collect).",
     skillsTitle: "Skills",
     skillsIntro: "Stack and capabilities I use daily across product, engineering and teams.",
     skillsBackend: "Backend",
-    skillsBackend3: "REST APIs · MySQL / SQL · Meilisearch",
+    skillsBackend3: "REST APIs · MySQL / SQL · Redis · Meilisearch",
     skillsCloud: "Cloud & DevOps",
     skillsCloud3: "CI/CD and containerized deployments",
     skillsCms: "CMS & eCommerce",
-    skillsCms1: "PrestaShop 8.x",
-    skillsCms2: "WordPress",
+    skillsCms1: "PrestaShop 8.x · WordPress",
+    skillsCms2: "Payment gateways",
     skillsCms3: "eCommerce / loyalty integrations",
     skillsFrontend: "Frontend",
     skillsFront3: "API integration and admin panels",
