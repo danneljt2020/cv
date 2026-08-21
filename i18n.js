@@ -184,7 +184,7 @@ const translations = {
     langEsLevel: "Native",
     langEn: "English",
     langEnLevel: "B2 reading · B1–B2 speaking/writing",
-    footerName: "Dannel Jimenez",
-    footerNote: "Online CV · GitHub Pages",
+    footerName: "Dannel Jimenez Torres",
+    footerNote: "Online CV · GitHub",
   },
 };
