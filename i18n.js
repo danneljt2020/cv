@@ -12,7 +12,7 @@ const translations = {
     photoHint: "Añade tu foto en assets/cv.png",
     aboutTitle: "Perfil",
     aboutText:
-      "Ingeniero Informático con más de 10 años construyendo y escalando sistemas web. Combino liderazgo de producto y Scrum (priorización, stakeholders, delivery) con ownership técnico profundo en arquitectura, APIs y calidad. Actualmente soy Scrum Master y Backend Lead de las aplicaciones móviles de ALSA dentro de O2O, impulsando también iniciativas de Agentic Commerce e integraciones de IA.",
+      "Ingeniero Informático con más de 10 años construyendo y escalando sistemas web. Combino liderazgo de producto y Scrum (priorización, stakeholders, delivery) con ownership técnico profundo en arquitectura, APIs y calidad. Actualmente soy Scrum Master y Backend Lead de las aplicaciones móviles de ALSA dentro de O2O, impulsando también iniciativas de Agentic Commerce.",
     statYears: "años de experiencia",
     statStack: "PHP · Python · JS · Cloud",
     statAgile: "Scrum · PM · delivery",
@@ -46,11 +46,9 @@ const translations = {
     job5Org: "Proyectos individuales y en equipo",
     job5Dates: "Sep 2014 — Presente",
     job5Summary:
-      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Amplia experiencia integrando pasarelas de pago, caché con Redis y soluciones a medida para clientes internacionales.",
+      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Amplia experiencia integrando pasarelas de pago, caché con Redis y soluciones a medida para clientes internacionales. Sanicompras: eCommerce sanitario en PrestaShop 8.2.",
     job5Highlight:
       "<strong>BeOneBoss:</strong> producto digital con búsqueda Meilisearch y capas de confianza/seguridad (Fingerprint, IPQualityScore).",
-    job5Highlight2:
-      "<strong>Sanicompras:</strong> eCommerce de material sanitario en PrestaShop 8.2 (catálogo, checkout, Click & Collect).",
     skillsTitle: "Habilidades",
     skillsIntro: "Stack y capacidades que uso día a día en producto, ingeniería y equipos.",
     skillsBackend: "Backend",
@@ -67,10 +65,10 @@ const translations = {
     skillsLead1: "Scrum Master · Product / Project Management",
     skillsLead2: "Stakeholders, backlog y roadmap",
     skillsLead3: "Facilitación, planning y continuous delivery",
-    skillsTrust: "Search · Trust · AI",
+    skillsTrust: "Search & Trust",
     skillsTrust1: "Meilisearch",
     skillsTrust2: "IPQualityScore · Fingerprint",
-    skillsTrust3: "IA vía API · Agentic Commerce",
+    skillsTrust3: "IA vía API",
     skillsSoft: "Soft skills",
     skillsSoft1: "Resolución creativa de problemas",
     skillsSoft2: "Comunicación multidisciplinar",
@@ -108,7 +106,7 @@ const translations = {
     photoHint: "Add your photo at assets/cv.png",
     aboutTitle: "Profile",
     aboutText:
-      "Computer Science Engineer with 10+ years building and scaling web systems. I combine product and Scrum leadership (prioritization, stakeholders, delivery) with deep technical ownership in architecture, APIs and quality. I currently serve as Scrum Master and Backend Lead for ALSA’s mobile applications within O2O, also driving Agentic Commerce and AI API integrations.",
+      "Computer Science Engineer with 10+ years building and scaling web systems. I combine product and Scrum leadership (prioritization, stakeholders, delivery) with deep technical ownership in architecture, APIs and quality. I currently serve as Scrum Master and Backend Lead for ALSA’s mobile applications within O2O, also driving Agentic Commerce initiatives.",
     statYears: "years of experience",
     statStack: "PHP · Python · JS · Cloud",
     statAgile: "Scrum · PM · delivery",
@@ -142,11 +140,9 @@ const translations = {
     job5Org: "Individual and team projects",
     job5Dates: "Sep 2014 — Present",
     job5Summary:
-      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Strong experience integrating payment gateways, Redis caching and tailored solutions for international clients.",
+      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Strong experience integrating payment gateways, Redis caching and tailored solutions for international clients. Sanicompras: healthcare eCommerce on PrestaShop 8.2.",
     job5Highlight:
       "<strong>BeOneBoss:</strong> digital product with Meilisearch search and trust/security layers (Fingerprint, IPQualityScore).",
-    job5Highlight2:
-      "<strong>Sanicompras:</strong> healthcare supplies eCommerce on PrestaShop 8.2 (catalog, checkout, Click & Collect).",
     skillsTitle: "Skills",
     skillsIntro: "Stack and capabilities I use daily across product, engineering and teams.",
     skillsBackend: "Backend",
@@ -163,10 +159,10 @@ const translations = {
     skillsLead1: "Scrum Master · Product / Project Management",
     skillsLead2: "Stakeholders, backlog and roadmap",
     skillsLead3: "Facilitation, planning and continuous delivery",
-    skillsTrust: "Search · Trust · AI",
+    skillsTrust: "Search & Trust",
     skillsTrust1: "Meilisearch",
     skillsTrust2: "IPQualityScore · Fingerprint",
-    skillsTrust3: "AI via API · Agentic Commerce",
+    skillsTrust3: "AI via API",
     skillsSoft: "Soft skills",
     skillsSoft1: "Creative problem solving",
     skillsSoft2: "Cross-disciplinary communication",
