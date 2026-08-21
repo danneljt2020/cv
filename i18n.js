@@ -46,7 +46,7 @@ const translations = {
     job5Org: "Proyectos individuales y en equipo",
     job5Dates: "Sep 2014 — Presente",
     job5Summary:
-      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Amplia experiencia integrando pasarelas de pago, caché con Redis y soluciones a medida para clientes internacionales. Sanicompras: eCommerce sanitario en PrestaShop 8.2.",
+      "Productos web, ERP/CRM y eCommerce con PHP, Python, JavaScript, MySQL y APIs REST (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Amplia experiencia integrando pasarelas de pago, caché con Redis y soluciones a medida para clientes internacionales.",
     job5Highlight:
       "<strong>BeOneBoss:</strong> producto digital con búsqueda Meilisearch y capas de confianza/seguridad (Fingerprint, IPQualityScore).",
     skillsTitle: "Habilidades",
@@ -65,10 +65,6 @@ const translations = {
     skillsLead1: "Scrum Master · Product / Project Management",
     skillsLead2: "Stakeholders, backlog y roadmap",
     skillsLead3: "Facilitación, planning y continuous delivery",
-    skillsTrust: "Search & Trust",
-    skillsTrust1: "Meilisearch",
-    skillsTrust2: "IPQualityScore · Fingerprint",
-    skillsTrust3: "IA vía API",
     skillsSoft: "Soft skills",
     skillsSoft1: "Resolución creativa de problemas",
     skillsSoft2: "Comunicación multidisciplinar",
@@ -90,8 +86,8 @@ const translations = {
     langEsLevel: "Lengua materna",
     langEn: "Inglés",
     langEnLevel: "B2 lectura · B1–B2 oral/escrito",
-    footerName: "Dannel Jimenez",
-    footerNote: "CV online · GitHub Pages",
+    footerName: "Dannel Jimenez Torres",
+    footerNote: "CV online · GitHub",
   },
   en: {
     brand: "Dannel Jimenez",
@@ -140,7 +136,7 @@ const translations = {
     job5Org: "Individual and team projects",
     job5Dates: "Sep 2014 — Present",
     job5Summary:
-      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Strong experience integrating payment gateways, Redis caching and tailored solutions for international clients. Sanicompras: healthcare eCommerce on PrestaShop 8.2.",
+      "Web products, ERP/CRM and eCommerce with PHP, Python, JavaScript, MySQL and REST APIs (Symfony, Laravel, Django, Flask, PrestaShop, WordPress). Strong experience integrating payment gateways, Redis caching and tailored solutions for international clients.",
     job5Highlight:
       "<strong>BeOneBoss:</strong> digital product with Meilisearch search and trust/security layers (Fingerprint, IPQualityScore).",
     skillsTitle: "Skills",
@@ -159,10 +155,6 @@ const translations = {
     skillsLead1: "Scrum Master · Product / Project Management",
     skillsLead2: "Stakeholders, backlog and roadmap",
     skillsLead3: "Facilitation, planning and continuous delivery",
-    skillsTrust: "Search & Trust",
-    skillsTrust1: "Meilisearch",
-    skillsTrust2: "IPQualityScore · Fingerprint",
-    skillsTrust3: "AI via API",
     skillsSoft: "Soft skills",
     skillsSoft1: "Creative problem solving",
     skillsSoft2: "Cross-disciplinary communication",
@@ -185,6 +177,6 @@ const translations = {
     langEn: "English",
     langEnLevel: "B2 reading · B1–B2 speaking/writing",
     footerName: "Dannel Jimenez Torres",
-    footerNote: "Online CV · GitHub",
+    footerNote: "CV online · GitHub",
   },
 };
