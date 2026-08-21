@@ -23,7 +23,7 @@ const translations = {
     job1Summary:
       "Liderazgo de producto/entrega y ownership técnico en transformación digital para grandes cuentas. Desarrollo y mantenimiento de APIs REST en PHP y Python (Symfony 6.4, Laravel 13.x), con despliegues e integraciones en AWS (RDS, Lambda).",
     job1b1:
-      "<strong>ALSA (Abr 2023 — Presente):</strong> Scrum Master y Backend Lead (Symfony/PHP) de las aplicaciones móviles. Gestiono backlog y roadmap con negocio, dependencias y stakeholders; facilito prácticas ágiles y conduzco el delivery continuo. Ownership del backend e iniciativas de <em>Agentic Commerce</em> e integración de IA vía API.",
+      "<strong>ALSA (Abr 2023 — Presente):</strong> Scrum Master y Backend Lead (Symfony/PHP) de las aplicaciones móviles. Gestiono backlog y roadmap con negocio, dependencias y stakeholders; facilito prácticas ágiles y conduzco el delivery continuo. Ownership del backend e iniciativas de <em>Agentic Commerce</em>.",
     job1b2:
       "<strong>Sodexo (Sep 2022 — Mar 2023):</strong> Backend Developer en PHP. Diseño e implementación de servicios, integraciones y mantenimiento evolutivo de plataformas corporativas.",
     job1b3:
@@ -119,7 +119,7 @@ const translations = {
     job1Summary:
       "Product/delivery leadership and technical ownership on digital transformation projects for large accounts. REST API development and maintenance in PHP and Python (Symfony 6.4, Laravel 13.x), with AWS integrations (RDS, Lambda).",
     job1b1:
-      "<strong>ALSA (Apr 2023 — Present):</strong> Scrum Master and Backend Lead (Symfony/PHP) for the mobile apps. I own backlog and roadmap with business, manage dependencies and stakeholders, facilitate agile practices and drive continuous delivery. Backend ownership plus <em>Agentic Commerce</em> initiatives and AI via API integrations.",
+      "<strong>ALSA (Apr 2023 — Present):</strong> Scrum Master and Backend Lead (Symfony/PHP) for the mobile apps. I own backlog and roadmap with business, manage dependencies and stakeholders, facilitate agile practices and drive continuous delivery. Backend ownership plus <em>Agentic Commerce</em> initiatives.",
     job1b2:
       "<strong>Sodexo (Sep 2022 — Mar 2023):</strong> PHP Backend Developer. Designed and implemented services, integrations and evolutionary maintenance of corporate platforms.",
     job1b3:
